@@ -1,0 +1,16 @@
+/* Preview mode highlights */
+.markdown-preview-view mark {
+    background-color: #765836; /* Your chosen highlight color */
+    padding: 0.02em 0.2em;
+    border-radius: 0.8em; /* Roundness of the corners */
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2); /* Shadow for depth */
+}
+
+/* Editor mode highlights */
+.cm-s-obsidian .cm-formatting-highlight, .cm-s-obsidian .cm-highlight {
+    background-color: #765836; /* Slightly transparent to differentiate from preview */
+    padding: 0.02em 0.2em;
+    border-radius: 0.8em; /* Roundness of the corners */
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2); /* Shadow for depth */
+    color: inherit; /* Keeps the text color consistent */
+}

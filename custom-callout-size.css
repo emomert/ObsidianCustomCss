@@ -1,0 +1,20 @@
+/* Adjusts callout content padding in preview */
+.markdown-preview-view .callout {
+    padding-top: 8px; /* Adjust the top padding as needed */
+    padding-bottom: 0px; /* Adjust the bottom padding as needed */
+}
+
+/* Adjusts callout title margin in preview */
+.markdown-preview-view .callout > .callout-title {
+    margin-bottom: 0px; /* Decrease the bottom margin to bring the title closer */
+}
+
+/* Adjusts editor content line height and padding */
+.cm-s-obsidian .CodeMirror-lines {
+    padding: 0px 0; /* Adjust the vertical padding as needed */
+}
+
+/* Optional: Reduce line height */
+.cm-s-obsidian .CodeMirror-line {
+    line-height: 0.5; /* Adjust the line height to control space between lines */
+}

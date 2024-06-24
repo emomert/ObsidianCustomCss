@@ -1,0 +1,16 @@
+/* Custom CSS for horizontal rules in Obsidian */
+hr {
+    border: none; /* Removes default border */
+    height: 1px; /* Sets the height of the line */
+    background: linear-gradient(to right, 
+        rgba(65,69,90,0) 0%, 
+        rgba(65,69,90,255) 50%, 
+        rgba(65,69,90,0) 100%);
+    /* Creates a gradient from transparent to semi-opaque in the middle, and back to transparent */
+}
+
+/* Additional styling to ensure compatibility and visibility */
+.markdown-preview-view hr,
+.markdown-source-view hr {
+    margin: 8px 0; /* Adds vertical spacing around the horizontal rule */
+}
